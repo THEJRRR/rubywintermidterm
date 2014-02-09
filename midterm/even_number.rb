@@ -35,7 +35,6 @@ class EvenNumber
 	def rangenumber x, y
 		arr =* (x..y)
 		x = arr.select {|a| a.even? }
-		# totalsum = x.inject{ |sum, y| sum + y }
 		return x
 	end
 end
