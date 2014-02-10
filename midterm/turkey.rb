@@ -37,5 +37,3 @@ class Turkey < Animal
 	end
 end
 
-# my_turkey = Turkey.new(100)
-# puts my_turkey
